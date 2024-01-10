@@ -47,14 +47,14 @@ class _UserDetailScreenState extends State<UserDetailScreen> {
         }
 
         setState(() {
-          name = snapshot.data()!["name"];
-          age = snapshot.data()!["age"].toString();
-          phoneNo = snapshot.data()!["phoneNo"];
-          city = snapshot.data()!["city"];
-          country = snapshot.data()!["country"];
-          profession = snapshot.data()!["profession"];
-          gender = snapshot.data()!["gender"];
-          religion = snapshot.data()!["religion"];
+          name = snapshot.data()!["Name"];
+          age = snapshot.data()!["Age"].toString();
+          phoneNo = snapshot.data()!["PhoneNo"];
+          city = snapshot.data()!["City"];
+          country = snapshot.data()!["Country"];
+          profession = snapshot.data()!["Profession"];
+          gender = snapshot.data()!["Gender"];
+          religion = snapshot.data()!["Religion"];
         });
       }
     });
