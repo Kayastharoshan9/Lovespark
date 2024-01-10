@@ -68,11 +68,11 @@ Future whenNotificationReceived(BuildContext context) async
         .then((snapshot)
         {
           String profileImage = snapshot.data()!["imageProfile"].toString();
-          String name = snapshot.data()!["name"].toString();
-          String age = snapshot.data()!["age"].toString();
-          String city = snapshot.data()!["city"].toString();
-          String country = snapshot.data()!["country"].toString();
-          String profession = snapshot.data()!["profession"].toString();
+          String name = snapshot.data()!["Name"].toString();
+          String age = snapshot.data()!["Age"].toString();
+          String city = snapshot.data()!["City"].toString();
+          String country = snapshot.data()!["Country"].toString();
+          String profession = snapshot.data()!["Profession"].toString();
 
           showDialog(
               context: context,
