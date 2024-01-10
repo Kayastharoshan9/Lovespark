@@ -38,7 +38,7 @@ class _LikeSentLikeReceivedScreenState extends State<LikeSentLikeReceivedScreen>
     {
       var likeReceivedDocument = await FirebaseFirestore
           .instance
-          .collection("users")
+          .collection("Users")
           .doc(currentUserID.toString())
           .collection("likeReceived")
           .get();
@@ -169,7 +169,7 @@ class _LikeSentLikeReceivedScreenState extends State<LikeSentLikeReceivedScreen>
                   child: DecoratedBox(
                     decoration: BoxDecoration(
                         image: DecorationImage(
-                          image: NetworkImage(likesList[index]["imageProfile"],),
+                          image: NetworkImage(likesList[index]["ImageProfile"],),
                           fit:BoxFit.cover,
                         )
                     ),
