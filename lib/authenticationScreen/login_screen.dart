@@ -129,7 +129,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   }
                     else
                     {
-                      Get.snackbar("Email or password is missing", "Please fill all fields");
+                      Get.snackbar("Your Email or password is missing", "Please fill all fields");
                     }
 
 
