@@ -446,7 +446,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                     }
                     else
                       {
-                        Get.snackbar("Image File Missing", "Please select an image or capture.");
+                        Get.snackbar("Image File Missing", "Please select  image or capture.");
 
                       }
 
