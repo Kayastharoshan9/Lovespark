@@ -233,7 +233,7 @@ class _AccountSettingsScreenState extends State<AccountSettingsScreen> {
               }
             else
               {
-                Get.snackbar("5 images", "Please choose 5 images.");
+                Get.snackbar("5 images", "Please choose any 5 images.");
               }
           },
             icon: Icon(Icons.navigate_next_outlined, size:36,),
