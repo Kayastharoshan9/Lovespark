@@ -129,7 +129,7 @@ class AuthenticationController extends GetxController
         }
         catch(errorMsg)
         {
-          Get.snackbar("Login Unsuccessful", "Error occured: $errorMsg");
+          Get.snackbar("Login Unsuccessful", "Error has occured: $errorMsg");
 
         }
   }
