@@ -136,7 +136,7 @@ class _ViewSentViewReceivedScreenState extends State<ViewSentViewReceivedScreen>
                 getViewListKeys();
               },
               child: Text(
-                "Viewed Me",
+                "Viewed as Me",
                 style: TextStyle(
                   color: isViewSentClicked ? Colors.grey : Colors.black,
                   fontWeight: isViewSentClicked ? FontWeight.normal : FontWeight.normal,
