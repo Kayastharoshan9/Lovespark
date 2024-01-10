@@ -71,7 +71,7 @@ class _SwippingScreenState extends State<SwippingScreen>
         .then((dataSnapshot)
     {
       setState(() {
-        senderName = dataSnapshot.data()!["name"].toString();
+        senderName = dataSnapshot.data()!["Name"].toString();
       });
     }
     );
